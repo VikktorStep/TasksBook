@@ -1,9 +1,3 @@
-//
-//  ToDoCategoryView.swift
-//  TasksBook
-//
-//  Created by Mac on 12.02.2024.
-//
 
 import UIKit
 

@@ -1,9 +1,3 @@
-//
-//  ToDoCategotyController.swift
-//  TasksBook
-//
-//  Created by Mac on 04.02.2024.
-//
 
 import UIKit
 
@@ -68,6 +62,7 @@ extension CategoryController: UITableViewDataSource {
 }
 
 extension CategoryController: UITableViewDelegate {
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 60
     }
