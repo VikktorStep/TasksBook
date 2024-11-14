@@ -1,9 +1,3 @@
-//
-//  SettingsView.swift
-//  TasksBook
-//
-//  Created by Mac on 31.01.2024.
-//
 
 import UIKit
 

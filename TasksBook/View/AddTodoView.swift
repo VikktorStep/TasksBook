@@ -1,9 +1,3 @@
-//
-//  AddTodoView.swift
-//  TasksBook
-//
-//  Created by Mac on 11.02.2024.
-//
 
 import UIKit
 
@@ -35,9 +29,11 @@ class AddTodoView: UIView {
         todoDescriptionTextView.layer.borderColor = UIColor.black.cgColor
         todoDescriptionTextView.layer.borderWidth = 0.2
         todoDescriptionTextView.layer.cornerRadius = 16
+        
         deadlineDatePicker.datePickerMode = .date
         deadlineDatePicker.preferredDatePickerStyle = .automatic
         deadlineDatePicker.minimumDate = Date()
+        
         checkpointsTableView.register(CheckpointCell.self, forCellReuseIdentifier: CheckpointCell.reuseID)
         checkpointsTableView.separatorStyle = .none
     }
